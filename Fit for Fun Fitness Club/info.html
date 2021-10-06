@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Kayla Gervais
+    Fit for Fun Fitness Club
+    October 5th, 2021
+    Classes page -->
+    <meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+  <title>Fit for Fun Fitness Club Information</title>
+</head>
+<body>
+<header>
+  <div class="header-img"></div>
+</header>
+<div class="topnav">
+  <a href="index.html">HOME</a>
+  <a href="classes.html"> CLASSES</a>
+  <a href="info.html">INFORMATION</a>
+</div>
+<main>
+  <h1>Request Information</h1>
+  <p>Ready to register? Fill out the form below!</p>
+  <form class="form" action="thankyou.html" method="GET">
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" name="firstname" required><br>
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" name="lastname" required><br>
+    <label for="email">E-Mail:</label>
+    <input type="email" id="email" name="email" required><br>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+    <label for="contact">How can we reach you?</label>
+    <select id="contact" name="contact">
+      <option value="email">E-Mail</option>
+      <option value="phone">Phone</option>
+      <option value="Owl">Owl</option>
+    </select><br>
+<fieldset>
+<legend><b>Which classes are you interested in?</b></legend>
+    <label for="class1">Cross Training</label>
+    <input type="checkbox" id="class1" name="class1" value="Cross Training">
+    <label for="class2">Sprint</label><br>
+    <input type="checkbox" id="class2" name="class2" value="Sprint">
+    <label for="class3">Spin</label><br>
+    <input type="checkbox" id="class3" name="class3" value="Spin">
+    <label for="class4">Body Pump</label><br>
+    <input type="checkbox" id="class4" name="class4" value="Body Pump">
+    <label for="class5">Body Combat</label><br>
+    <input type="checkbox" id="class5" name="class5" value="Body Combat">
+    <label for="class6">Step Interval</label><br>
+    <input type="checkbox" id="class6" name="class6" value="Step Interval">
+    <label for="class7">Advanced Cross Training</label><br>
+    <input type="checkbox" id="class7" name="class7" value="Advanced Cross Training">
+    <label for="class8">MixxedFIT</label><br>
+    <input type="checkbox" id="class8" name="class8" value="MixxedFIT">
+    <label for="class9">Zumba</label><br>
+    <input type="checkbox" id="class9" name="class9" value="Zumba">
+</fieldset>
+<fieldset>
+<legend><b>AM or PM?</b></legend>
+    <label for="am">AM</label>
+    <input type="radio" id="am" name="time" value="AM">
+    <label for="pm">PM</label>
+    <input type="radio" id="pm" name="time" value="PM">
+</fieldset>
+<input type="submit" value="Submit">
+</form>
+<footer>
+  Website Designed by: Kayla Gervais
+  Contact information: <a href="mailto:gervais1217@missouristate.edu?subject=feedback">Email Me</a>
+</footer>
+</main>
+</body>
