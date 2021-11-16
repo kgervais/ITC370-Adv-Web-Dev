@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--Kayla Gervais
+    Bootstrap B&B Assignment-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a7ec7f2c24.js" crossorigin="anonymous"></script>
+    <title>Kailua Kove Bed & Breakfast</title>
+  </head>
+  <body>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="images/kailua1.jpg" class="d-block w-100" alt="Beach view">
+    </div>
+    <div class="carousel-item" data-bs-interval="5000">
+      <img src="images/kailua2.jpg" class="d-block w-100" alt="Beach house">
+    </div>
+    <div class="carousel-item" data-bs-interval="5000">
+      <img src="images/kailua3.jpg" class="d-block w-100" alt="Pool">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-info">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Kailua Kove</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<h1 class="display-1">Contact Us</h1>
+  <p class="text-center">For booking and/or reservation requests, please email
+    us and provide the number of nights you wish to stay, as well as your check out date and any questions you may have.
+    Phone numbers are requested in case of any email address errors for us to be able to reply promptly to you. </p>
+<div class="container">
+<form class="row g-3">
+  <div class="col-md-6">
+      <label for="emailAddress" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com">
+    </div>
+    <div class="col-md-6">
+      <label for="phoneNumber" class="form-label">Phone Number</label>
+      <input type="tel" class="form-control" id="phoneNumber" placeholder="(000)000-0000">
+    </div>
+  <div class="col-md-6">
+    <label for="inputDays" class="form-label">How many days?</label>
+    <select id="inputDays" class="form-select">
+      <option>Days</option>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+      <option>10</option>
+    </select>
+  </div>
+  <div class="col-md-6">
+    <label for="checkOut" class="form-label">Check-Out Date</label>
+    <input type="date" class="form-control" id="checkOut">
+  </div>
+    <div class="form-floating">
+      <label for="questionTextarea" class="form-label">Any questions?</label>
+      <textarea class="form-control" id="questionTextarea" style="height: 100px"></textarea>
+    </div>
+    <div class="col-auto">
+          <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</form>
+</div>
+<h1 class="display-1">Directions</h1>
+  <div class="d-flex align-items-center">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.1849604022764!2d-157.74923348459373!3d21.42197377961293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c0015399eb53f0b%3A0xf8b93ccbb6bb3ebe!2s804%20Mokapu%20Rd%2C%20Kailua%2C%20HI%2096734!5e0!3m2!1sen!2sus!4v1637084008656!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+    <footer class="footer bg-info">
+      <div style="text-align:center">
+        <div class="row" style="margin: 5px 5px 5px 5px">
+          <div class="col">
+            <h5 class="display-6">Contact Us</h5>
+            <i class="fas fa-map-marker-alt"></i>
+            804 Mokapu Rd
+            Kailua, HI 96734<br>
+            <i class="fas fa-phone-alt"></i>
+            (808) 261-1431
+            <i class="far fa-envelope"></i>
+            paradisepalmbnb@gmail.com
+          </div>
+          <div class="col" style="padding:5px">
+            <h5 class="display-6">Let's Get Social!</h5>
+            <i class="fab fa-facebook" style="font-size:25px"></i>
+            <i class="fab fa-instagram" style="font-size:25px"></i>
+            <i class="fab fa-twitter" style="font-size:25px"></i>
+            <i class="fab fa-pinterest-p" style="font-size:25px"></i>
+            <i class="fab fa-yelp" style="font-size:25px"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
